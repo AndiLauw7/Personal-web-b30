@@ -58,14 +58,16 @@ function submitData() {
     } else if (Subject == "") {
         return alert("Subject harus diisi ")
     } else if (textarea == "") {
-        return alert("Mohon massukkan Komentar")
+        return alert("Massagge Harus di isi")
     }
 
     let emailReceiver = '@andisafariansyah7@gmail.com'
     let a = document.createElement('a')
-    a.href = `mailto: ${emailReceiver}?subject=${Subject}&body=Hallo my name ${nama}`
+    a.href = `mailto: ${emailReceiver}?subject=${Subject}&body=Hallo my name ${nama}  ${textarea} contact me ${telpon}`
     a.click()
-
+        // if (name == '' || email == '' || phone == '' || subject == '' || message == '') {
+        //     alert("Semuanya wajib diisi")
+        // }
     let dataObject = {
         nama: nama,
         telpon: telpon,
