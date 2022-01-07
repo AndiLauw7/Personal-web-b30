@@ -55,7 +55,7 @@ function submitData() {
         return alert("Telpon tidak boleh kosong")
     } else if (email == "") {
         return alert("email tidak boleh kosong")
-    } else if (agama == "") {
+    } else if (Subject == "") {
         return alert("Subject harus diisi ")
     } else if (textarea == "") {
         return alert("Mohon massukkan Komentar")
