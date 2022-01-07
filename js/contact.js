@@ -59,13 +59,12 @@ function submitData() {
         return alert("Subject harus diisi ")
     } else if (textarea == "") {
         return alert("Mohon massukkan Komentar")
-    } else {
-        let emailReceiver = '@andisafariansyah7@gmail.com'
-        let a = document.createElement('a')
-        a.href = `mailto: ${emailReceiver}?subject=${Subject}&body=Hallo my name ${nama}`
-        a.click()
-        alert("data dikirim")
     }
+
+    let emailReceiver = '@andisafariansyah7@gmail.com'
+    let a = document.createElement('a')
+    a.href = `mailto: ${emailReceiver}?subject=${Subject}&body=Hallo my name ${nama}`
+    a.click()
 
     let dataObject = {
         nama: nama,
