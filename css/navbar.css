@@ -108,9 +108,9 @@ li a:hover {
         display: block;
         width: 100%;
     }
-    /* .nav .menu {
+    .nav .menu {
         display: block;
-    } */
+    }
     .contact {
         display: flex;
         width: 100%;
