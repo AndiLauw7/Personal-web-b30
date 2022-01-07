@@ -101,13 +101,18 @@ li a:hover {
     padding: 0 5px;
 }
 
-
-/* @media (max-width:600) {
-    .nav{
-       grid-template-areas: 
-           'menu'
-           'logo'
-         
-     }
-      
-   } */
+@media screen and (max-width: 768px) {
+    .nav {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 100%;
+    }
+    /* .nav .menu {
+        display: block;
+    } */
+    .contact {
+        display: flex;
+        width: 20%;
+    }
+}
