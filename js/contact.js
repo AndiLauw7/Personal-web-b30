@@ -62,7 +62,7 @@ function submitData() {
     } else {
         let emailReceiver = '@andisafariansyah7@gmail.com'
         let a = document.createElement('a')
-        a.href = `mailto: ${emailReceiver}?subject=${Subject}&body=hallo my name ${nama} ${textarea} contact me ${telpon}`
+        a.href = `mailto: ${emailReceiver}?subject=${Subject}&body=Hallo my name ${nama}`
         a.click()
         alert("data dikirim")
     }
