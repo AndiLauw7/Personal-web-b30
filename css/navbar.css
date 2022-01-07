@@ -113,6 +113,6 @@ li a:hover {
     } */
     .contact {
         display: flex;
-        width: 20%;
+        width: 100%;
     }
 }
