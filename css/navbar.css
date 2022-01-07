@@ -112,6 +112,6 @@ li a:hover {
 
 @media screen and (max-width: 768px) {
     .nav {
-        display: block;
+        width: 100%;
     }
 }
