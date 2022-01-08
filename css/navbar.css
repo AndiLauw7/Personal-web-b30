@@ -89,6 +89,7 @@ li a:hover {
 /* ELEMENT-CONTACT */
 
 .contact {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
