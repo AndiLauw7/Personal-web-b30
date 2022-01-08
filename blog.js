@@ -30,9 +30,7 @@ function addBlog(event) {
     // console.log(blogs[index]);
 
     renderBlog();
-    // if (title == '' || content == '' || image == '') {
-    //     return alert("Semuanya wajib diisi")
-    // }
+
 
 
 }
@@ -73,8 +71,6 @@ function renderBlog() {
             </span>
           </div>
            </div>`
-
-
 
     }
 
@@ -171,3 +167,18 @@ function getDistanceTime(time) {
 setInterval(() => {
     renderBlog()
 }, 60000)
+
+
+
+
+
+
+
+
+
+
+
+
+// for ( let angka = 0; angka <=100; angka++){
+//     console.log(angka)
+// }
