@@ -1,6 +1,6 @@
-// function postBlog() {
-//     alert("Add Blog Succes")
-// }
+function postBlog() {
+    alert("Add Blog Succes")
+}
 
 let blogs = []
 
