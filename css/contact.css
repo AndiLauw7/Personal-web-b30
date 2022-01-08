@@ -90,5 +90,7 @@ button:hover {
     form {
         width: 100%;
         margin-top: 0;
+        padding: 10px 20px;
+        align-items: center;
     }
 }
