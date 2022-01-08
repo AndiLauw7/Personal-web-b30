@@ -74,7 +74,7 @@ function renderBlog() {
 
     }
     if (title == '' || content == '' || image == '') {
-        alert("Semuanya wajib diisi")
+        return alert("Semuanya wajib diisi")
     }
 
     function firstBlog() {
