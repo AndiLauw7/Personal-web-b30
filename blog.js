@@ -30,9 +30,9 @@ function addBlog(event) {
     // console.log(blogs[index]);
 
     renderBlog();
-    if (title == '' || content == '' || image == '') {
-        return alert("Semuanya wajib diisi")
-    }
+    // if (title == '' || content == '' || image == '') {
+    //     return alert("Semuanya wajib diisi")
+    // }
 
 
 }
