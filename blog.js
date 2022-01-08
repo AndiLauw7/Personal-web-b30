@@ -1,5 +1,7 @@
 function postBlog() {
-    alert("Add Blog Succes")
+    if (title == '' || content == '' || image == '') {
+        return alert("Semuanya wajib diisi")
+    }
 }
 
 let blogs = []
@@ -73,9 +75,9 @@ function renderBlog() {
            </div>`
 
     }
-    if (title == '' || content == '' || image == '') {
-        return alert("Semuanya wajib diisi")
-    }
+    // if (title == '' || content == '' || image == '') {
+    //     return alert("Semuanya wajib diisi")
+    // }
 
     function firstBlog() {
         return `
