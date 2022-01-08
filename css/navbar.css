@@ -110,7 +110,7 @@ li a:hover {
     padding: 0 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 620px) {
     .nav {
         width: 100%;
     }
