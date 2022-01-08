@@ -157,7 +157,7 @@ td {
     background-color: blue;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 576px) {
     .container {
         display: block;
     }
@@ -187,8 +187,5 @@ td {
         /* position: relative; */
         transition: 1s;
         padding: 10px 0;
-    }
-    footer {
-        display: block;
     }
 }
