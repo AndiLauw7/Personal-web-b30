@@ -157,7 +157,7 @@ td {
     background-color: blue;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 620px) {
     .container {
         display: block;
     }
