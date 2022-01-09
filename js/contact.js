@@ -61,7 +61,7 @@ function submitData() {
         return alert("Massagge Harus di isi")
     }
 
-    let emailReceiver = '@andisafariansyah7@gmail.com'
+    let emailReceiver = 'andisafariansyah7@gmail.com'
     let a = document.createElement('a')
     a.href = `mailto: ${emailReceiver}?subject=${Subject}&body=Hallo my name ${nama}  ${textarea} contact me ${telpon}`
     a.click()
