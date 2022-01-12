@@ -142,6 +142,9 @@ li a:hover {
         align-items: center;
         text-decoration: none;
     }
+    .burger a .frame {
+        background-color: palegreen;
+    }
     .burger a img {
         width: 25px;
     }
