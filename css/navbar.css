@@ -120,6 +120,9 @@ li a:hover {
 } */
 
 @media (max-width: 576px) {
+    * {
+        box-sizing: border-box;
+    }
     .nav {
         width: 100%;
     }
@@ -128,5 +131,26 @@ li a:hover {
     }
     .menu ul li {
         display: none;
+    }
+    .contact {
+        width: 10%;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    .contact a {
+        font-weight: bolder;
+        background-color: rgb(255, 115, 0);
+        font-size: 0.9em;
+        padding: 8px 10px;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        color: rgb(255, 255, 255);
+    }
+    .contact a img {
+        width: 25px;
+        padding: 0 5px;
     }
 }
