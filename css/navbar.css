@@ -132,15 +132,4 @@ li a:hover {
     .menu ul li {
         display: none;
     }
-    .contact {
-        width: 10%;
-        display: flex;
-        justify-content: space-between;
-        border-radius: 10px;
-        background-color: orangered;
-    }
-    .contact a img {
-        width: 25px;
-        padding: 0 5px;
-    }
 }
