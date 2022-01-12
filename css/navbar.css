@@ -138,8 +138,9 @@ li a:hover {
     .burger {
         display: flex;
         margin: 0 10px;
+        text-decoration: none;
     }
-    .burger a {
-        width: 20px;
+    .burger a img {
+        width: 25px;
     }
 }
