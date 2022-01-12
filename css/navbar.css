@@ -137,9 +137,7 @@ li a:hover {
         display: flex;
         justify-content: space-between;
         border-radius: 10px;
-    }
-    .contact a {
-        display: none;
+        background-color: orangered;
     }
     .contact a img {
         width: 25px;
