@@ -156,7 +156,7 @@ td {
     }
     .container .section {
         display: block;
-        margin: 50px auto;
+        margin: 0 auto;
     }
     .section .right {
         padding-left: 5px;
