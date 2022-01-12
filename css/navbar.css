@@ -132,4 +132,7 @@ li a:hover {
     .menu ul li {
         display: none;
     }
+    .contact {
+        display: none;
+    }
 }
