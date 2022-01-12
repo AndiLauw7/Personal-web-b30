@@ -135,7 +135,8 @@ li a:hover {
     .contact a {
         display: none;
     }
-    .burger a {
-        width: 25px;
+    .burger {
+        display: flex;
+        margin: 0 10px;
     }
 }
