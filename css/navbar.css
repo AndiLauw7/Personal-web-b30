@@ -139,15 +139,7 @@ li a:hover {
         border-radius: 10px;
     }
     .contact a {
-        font-weight: bolder;
-        background-color: rgb(255, 115, 0);
-        font-size: 0.9em;
-        padding: 8px 10px;
-        border: none;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        color: rgb(255, 255, 255);
+        display: none;
     }
     .contact a img {
         width: 25px;
