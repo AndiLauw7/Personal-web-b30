@@ -89,13 +89,6 @@ td {
     flex: 1;
 }
 
-
-/* .skil-container div img {
-    padding: 5px 0;
-    width: 70px;
-    height: 50px;
-} */
-
 .middle {
     padding-top: 10px;
     padding-right: 10px;
@@ -157,7 +150,7 @@ td {
     background-color: blue;
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 375px) and (max-width: 576px) {
     .container {
         display: block;
     }
