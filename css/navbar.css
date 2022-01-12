@@ -136,14 +136,20 @@ li a:hover {
         display: none;
     }
     .burger {
-        background-color: orangered;
+        /* background-color: orangered; */
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         text-decoration: none;
     }
     .burger a .frame {
-        background-color: palegreen;
+        background-color: rgb(255, 255, 255);
+        border-radius: 100%;
+        box-shadow: dimgray;
+    }
+    .burger a .hover {
+        width: 100px;
+        background-color: orangered;
     }
     .burger a img {
         width: 25px;
