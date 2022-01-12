@@ -135,4 +135,7 @@ li a:hover {
     .contact a {
         display: none;
     }
+    .burger a {
+        width: 50px;
+    }
 }
